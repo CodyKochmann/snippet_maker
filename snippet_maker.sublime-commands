@@ -1,0 +1,6 @@
+[
+    {
+        "caption": "make a new snippet from this file",
+        "command": "new_snippet_from_file"
+    }
+]

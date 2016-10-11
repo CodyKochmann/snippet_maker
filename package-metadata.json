@@ -1,0 +1,10 @@
+{
+  "description": "improved snippet generating and editing",
+  "platforms": [
+    "*"
+  ],
+  "dependencies": [],
+  "sublime_text": ">=3000",
+  "url": "https://github.com/CodyKochmann/snippet_maker",
+  "version": "0.0.1"
+}
