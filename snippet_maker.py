@@ -2,7 +2,7 @@
 # @Author: cody
 # @Date:   2016-10-11 13:20:36
 # @Last Modified 2016-10-11
-# @Last Modified time: 2016-10-11 13:38:41
+# @Last Modified time: 2016-10-11 14:00:13
 
 import sys
 import sublime
@@ -49,4 +49,5 @@ class new_snippet_from_file(sublime_plugin.TextCommand):
         # returns the full text of the file
         get_text = lambda: self.view.substr(allcontent())
 
-        print("text recieved:\n\n{}".format(get_text()))
+        self.view.replace(edit, allcontent(), "text recieved:\n\n{}".format(get_text()))
+
